@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="persistence-data">
+        <class>com.gotrip.entity.BaseEntity</class>
+        <class>com.gotrip.entity.UserEntity</class>
+        <class>com.gotrip.entity.RoleEntity</class>
+        <class>com.gotrip.entity.PostEntity</class>
+        <!--<class>com.gotrip.entity.BillEntity</class>
+        <class>com.gotrip.entity.ContactInfoEntity</class>
+        <class>com.gotrip.entity.CustomerEntity</class>
+        <class>com.gotrip.entity.ExtendedServiceBillEntity</class>
+        <class>com.gotrip.entity.ExtendedServiceEntity</class>
+        <class>com.gotrip.entity.PaymentLogEntity</class>
+        <class>com.gotrip.entity.PlaceEntity</class>
+        <class>com.gotrip.entity.TicketEntity</class>
+        <class>com.gotrip.entity.TourEntity</class>
+        <class>com.gotrip.entity.TripEntity</class>
+        <class>com.gotrip.entity.UserReportEntity</class>-->
+    </persistence-unit>
+</persistence>
